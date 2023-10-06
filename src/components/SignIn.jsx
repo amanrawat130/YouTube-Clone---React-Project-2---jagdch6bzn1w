@@ -209,7 +209,7 @@ const SignIn = () => {
                 id="email"
                 label="Email Address"
                 name="email"
-                
+                autoComplete="off"
                 value={formData.email}
                 onChange={handleChange}
                 onBlur={handleBlur} // Trigger email validation on blur
@@ -224,7 +224,7 @@ const SignIn = () => {
                 label="Password"
                 type="password"
                 id="password"
-                
+                autoComplete="off"                
                 value={formData.password}
                 onChange={handleChange}
               />
