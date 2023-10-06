@@ -10,7 +10,7 @@ import { RiVideoAddLine } from "react-icons/ri";
 import { FiBell } from "react-icons/fi";
 import { CgClose } from "react-icons/cg";
 import { Context } from "../context/contextApi";
-import Loader from "../shared/loader";
+import Loader from "../shared/Loader";
 import Popover from '@mui/material/Popover';
 import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
