@@ -5,7 +5,7 @@ import LeftNav from "./LeftNav";
 
 import { Link } from "react-router-dom";
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import VideoLength from "../shared/videoLength";
+import VideoLength from "../shared/VideoLength";
 
 import { generateRandomDuration, generateRandomViews, generateRandomLikes, randomTimeAgo, genrateRandomProfilePicLink } from "../utils/functions";
 

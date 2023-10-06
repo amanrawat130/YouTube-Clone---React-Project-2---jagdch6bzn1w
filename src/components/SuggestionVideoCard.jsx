@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-import VideoLength from "../shared/videoLength";
+import VideoLength from "../shared/VideoLength";
 import {extractDateFromISOString} from "../utils/functions"
 
 const SuggestionVideoCard = ({ video,randomNum,generateRandomViews,generateRandomLikes }) => {
